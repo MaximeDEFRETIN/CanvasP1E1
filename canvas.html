@@ -9,6 +9,7 @@
   <script type="text/javascript">
   var canvas = document.getElementById('canvas');
   var m = canvas.getContext("2d");
+  //Toit
   m.beginPath();
   m.moveTo(300,150);
   m.lineTo(200,225);
@@ -16,6 +17,7 @@
   m.closePath();
   m.fillStyle = "#D7823D";
   m.fill();
+  //Mur
   m.beginPath();
   m.moveTo(200,225);
   m.lineTo(400,225);
@@ -24,11 +26,29 @@
   m.closePath();
   m.fillStyle = "#A1D8E6";
   m.fill();
+  //Fenêtre
   m.beginPath();
   m.moveTo(225,250);
   m.lineTo(250,250);
-  m.lineTo(275,250);
-  m.lineTo(275,250);
+  m.lineTo(250,275);
+  m.lineTo(225,275);
+  m.closePath();
+  m.fillStyle = "#C9C9C9";
+  m.fill();
+  m.beginPath();
+  m.moveTo(350,250);
+  m.lineTo(375,250);
+  m.lineTo(375,275);
+  m.lineTo(350,275);
+  m.closePath();
+  m.fillStyle = "#C9C9C9";
+  m.fill();
+  //Porte
+  m.beginPath();
+  m.moveTo(265,300);
+  m.lineTo(340,300);
+  m.lineTo(340,425);
+  m.lineTo(265,425);
   m.closePath();
   m.fillStyle = "#C9C9C9";
   m.fill();
